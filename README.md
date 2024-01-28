@@ -51,6 +51,8 @@ Build a machine learning model to identify protein allergens from amino acid seq
 - Model Training
 - Optimizing for AUC, F1, and Recall
 
+## Model Comparison
+
 # Conclusion
 - **model_knn & tuned_AUC_model_xgboost perform the best.**
 - Since the objective is to identify allergens in genomes to make decisions on what not to eat, higher recall (tuned_AUC_model_xgboost) may be preferred over higher precision (model_knn). Also, tuned_AUC_model_xgboost has a slightly higher AUC, which is to take into account in unbalanced data.
