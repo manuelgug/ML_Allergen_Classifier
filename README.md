@@ -40,11 +40,16 @@ Build a machine learning model to identify protein allergens from amino acid seq
 - Check Occurrences of Each Category
 - Analysis by sequence length
 - Amino Acid Profile/Abundance of Each Dataset
+![organisms](https://github.com/manuelgug/ML_Allergen_Classifier/blob/main/some_images/allergens_organisms.png)
+![amino_acids](https://github.com/manuelgug/ML_Allergen_Classifier/blob/main/some_images/seq_composition.png)
+
 
 ## Cleaning
 - Importance of Features
 - Remove Correlated Features
 - Plot PCA of the Final Variables
+![corrplot](https://github.com/manuelgug/ML_Allergen_Classifier/blob/main/some_images/corrplot_filtered.png)
+![pca](https://github.com/manuelgug/ML_Allergen_Classifier/blob/main/some_images/pca_features.png)
 
 ## Model Building
 - Preprocessing
@@ -52,6 +57,7 @@ Build a machine learning model to identify protein allergens from amino acid seq
 - Optimizing for AUC, F1, and Recall
 
 ## Model Comparison
+![model_comparison](https://github.com/manuelgug/ML_Allergen_Classifier/blob/main/some_images/model_comparison.png)
 
 # Conclusion
 - **model_knn & tuned_AUC_model_xgboost perform the best.**
